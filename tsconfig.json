@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",                  /* Phiên bản JavaScript mà TypeScript sẽ biên dịch thành */
+    "module": "esnext",                  /* Mô-đun tiêu chuẩn (commonjs, esnext, ...). */
+    "lib": ["es6", "dom"],               /* Các thư viện được sử dụng trong quá trình biên dịch. */
+    "outDir": "./dist",                  /* Thư mục đầu ra cho các tập tin biên dịch. */
+    "strict": true,                      /* Bật chế độ kiểm tra nghiêm ngặt. */
+    "esModuleInterop": true,             /* Hỗ trợ import/require hỗn hợp (Cung cấp cả default và namespace exports). */
+    "moduleResolution": "node",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "types": ["@types/metro-config"],
+
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    /* Advanced Options */
+    // Nếu bạn muốn sử dụng React, hãy bật tuỳ chọn dưới đây và cài đặt @types/react và @types/react-native
+    // "jsx": "react",                   
+    // "esModuleInterop": true,          /* Hỗ trợ import hỗn hợp (default và namespace exports). */
+    // "skipLibCheck": true,             /* Không kiểm tra các tập tin khai báo (.d.ts) bên ngoài dự án. */
+    // "forceConsistentCasingInFileNames": true,  /* Kiểm tra trường hợp đồng nhất của các tên tập tin. */
+    // "noEmit": true,                  /* Không tạo ra tập tin đầu ra trong quá trình biên dịch. */
+
+    /* Linting Options */
+    // "noImplicitAny": true,           /* Cảnh báo khi không có kiểu rõ ràng được xác định. */
+    // "strictNullChecks": true,        /* Kiểm tra null và undefined trong kiểu dữ liệu. */
+    // "strictFunctionTypes": true,     /* Kiểm tra kiểu hàm nghiêm ngặt. */
+    // "noUnusedLocals": true,          /* Cảnh báo khi biến được khai báo nhưng không được sử dụng. */
+
+    /* Advanced Module Resolution Options */
+    // "baseUrl": "./",                 /* Đường dẫn gốc của các đoạn mã nguồn. */
+    // "paths": {},                     /* Các đoạn mã nguồn được alias thành các đoạn mã khác. */
+    // "rootDirs": [],                  /* Danh sách thư mục nguồn nếu bạn có nhiều thư mục nguồn. */
+    // "typeRoots": [],                 /* Danh sách các thư mục chứa khai báo kiểu (@types). */
+    // "types": [],                     /* Danh sách các khai báo kiểu mà bạn muốn đưa vào phạm vi biên dịch. */
+
+    /* Additional Checks */
+    // "noImplicitReturns": true,       /* Cảnh báo khi hàm không có lệnh return hoặc không hoàn thành tất cả các nhánh. */
+    // "noImplicitThis": true,          /* Cảnh báo khi this được sử dụng mà không phải là kiểu rõ ràng. */
+
+    /* Debugging Options */
+    // "sourceMap": true,               /* Tạo các file sourcemap (.map) để dễ dàng debug trong trình duyệt. */
+
+    /* Strict Type-Checking Options */
+    // "strictPropertyInitialization": true,  /* Đảm bảo các thuộc tính của lớp được khởi tạo trong constructor. */
+    // "noUnusedParameters": true,      /* Cảnh báo khi các tham số không được sử dụng trong hàm. */
+    // "noImplicitOverride": true,      /* Cảnh báo khi vi phạm kiểu của hàm kế thừa từ lớp cha. */
+    // "noPropertyAccessFromIndexSignature": true,  /* Không phép truy cập thuộc tính từ index signature của đối tượng. */
+  },
+  "exclude": [/* Danh sách các thư mục bị loại trừ khỏi quá trình biên dịch. */
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "include": ["src"],                /* Danh sách các thư mục chứa mã nguồn cần biên dịch. */
+}

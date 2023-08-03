@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "116840767494",
+    "firebase_url": "https://paymobi-22aed.firebaseio.com",
+    "project_id": "paymobi-22aed",
+    "storage_bucket": "paymobi-22aed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116840767494:android:caa166fc6d270ee6002387",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116840767494-s226pte8lo0aqk6hgs5vfvdfaa6rjmt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO7PXZ_0sc75URjGWz9TyyrfbiF1pVsMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116840767494-s226pte8lo0aqk6hgs5vfvdfaa6rjmt5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "116840767494-rcoii8eqati2p9js1ec0kg6b8gbmksp1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "IOS.Paymobi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
